@@ -1,3 +1,18 @@
 Trabajo en equipo con git
 ¿Cual es la diferencia entre compilacion e interpretacion?
 	La diferencia reside en que cuando compilamos leemos todo el código de una pasada y después lo ejecutamos , mientras que si lo interpretamos , vamos leyendo línea a línea. Además la interpretacion requiere un interprete para poder ejecutarlo.
+
+
+ ¿Que permisos tiene el fichero helloWorld.sh? 
+-rwxr-xr-x
+¿Se puede ejecutar directamente?
+Si
+¿Que permisos tiene el fichero helloWorld.rb? 
+-rw-rw-r--
+¿Se puede ejecutar directamente?
+No
+¿Cual es la principal diferencia entre el contenido del fichero helloWorld.sh y helloWorld.rb?
+Son diferentes lenguajes los usados el source file y el de ruby no se puede ejecutar directamente por los permisos. Además seria necesario añadir una linea al principio del fichero de ruby "#! /usr/bin/ruby"
+¿Que significado tiene la primera lınea del fichero helloWorld.sh?
+Permite ejecutar el archivo con el programa indicado en la linea
+
